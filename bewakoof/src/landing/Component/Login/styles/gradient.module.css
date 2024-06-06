@@ -1,0 +1,30 @@
+.Gradient {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(0deg, #fff4c4, #fff);
+  }
+  
+  .First {
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 40px;
+  }
+  .First > h3 {
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  .Gradient img {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 411px) and (max-width: 800px) {
+    .Gradient {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 410px) {
+    .Gradient {
+      display: none;
+    }
+  }
